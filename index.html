@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+        <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <nav id="navbar">
+        <header>Dart documentation</header>
+        <ul>
+          <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+          <li><a class="nav-link" href="#What_you_should_already_know">What you should already know
+</a></li>
+<li><a class="nav-link" href="#hello_world">Hello world</a></li>
+<li><a class="nav-link" href="#values">Values</a></li>
+<li><a class="nav-link" href="#for_loop">for loop</a></li>
+        </ul>
+      </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <div>
+          <p>
+Dart is a modern programming language developed by Google in 2011. It's an object-oriented, class-based, garbage-collected language with C-style syntax. Dart is designed to be easy to learn and use, and it offers features such as optional typing, asynchronous programming, and a rich set of libraries. One of the key advantages of Dart is its ability to be used both on the client-side (in web browsers) and on the server-side (via command-line tools or web servers).
+</p>
+<p>
+You can use Dart language in many fields, including:
+        </p>
+          <ul>
+           <li>Developing web applications using the Flutter framework and user interfaces.</li>
+           <li>Developing mobile applications for Android and iOS systems using the Flutter framework.</li>
+           <li>Creating scripts for automation and testing using Dart.</li>
+           <li>Developing desktop applications using the Flutter framework and other frameworks.</li>
+           <li>Building programming libraries for applications using the Dart language."</li>
+          </ul>
+        </div>
+      </section>
+      <section class="main-section" id="What_you_should_already_know">
+        <header>What you should already know</header>
+        <div>
+          <ul>
+            <li>Dart language is characterized by its fast execution of commands and provides an easy-to-use development environment.</li>
+            <li>Dart language supports both object-oriented and functional programming, and provides many useful features such as weak and strong binding, and flow control</li>
+          </ul>
+        </div>
+      </section>
+            <section class="main-section" id="hello_world">
+            <header>hello world</header>
+            <div>
+             You can print "Hello, world" in Dart by using the built-in print() function. Here's an example:
+             <code>void main() { print('Hello, world'); }
+            </code>
+            <p>When running this code, 'Hello, World' is printed in the program outputs</p>
+            </div>
+</section>
+
+<section class="main-section" id="values">
+<header>values</header>
+<div>
+<p>In Dart, you can create variables using the var keyword. Here's an example:</p>
+<code>var age = 25;</code>
+<p>In this example, age is a variable of type int, with a value of 25.
+<br>
+You can also declare the type of the variable explicitly, like this:
+</p>
+<code>int age = 25;</code>
+<p>This declares age as an integer variable with a value of 25.
+<br>
+There are also other data types in Dart such as double for decimal values, bool for boolean values, and String for text values. Here's an example:</p>
+<code>double price = 10.99;<br>
+bool isAvailable = true;<br>
+String productName = "Widget";
+</code>
+</div>
+</section>
+
+<section class="main-section" id="for_loop">
+  <header>for loop</header>
+  <div>
+    <p>To make a for loop in Dart, you can use the for keyword followed by parentheses containing three optional expressions: initialization, condition, and increment/decrement. Here is an example of a for loop that prints the numbers from 1 to 10:
+</p>
+    <code>for (int i = 1; i <= 10; i++) { print(i); }
+</code>
+<p>In this example, the loop starts by initializing i to 1. The loop condition checks if i is less than or equal to 10. If it is, the loop body is executed, which simply prints the value of i. Finally, the loop increments i by 1 at the end of each iteration.</p>
+<p>You can also use a for-in loop to iterate over the elements of a collection, such as a list or a set. Here is an example of a for-in loop that prints the elements of a list:</p>
+<code>
+List < int > numbers = [1, 2, 3, 4, 5];<br>
+
+for (int number in numbers) {
+  print(number);<br>
+}
+</code>
+<p>In this example, the loop variable number takes on the value of each element in the numbers list, one at a time. The loop body simply prints the value of number on each iteration.</p>
+  </div>
+</section>
+    </main>
+  </body>
+</html>
